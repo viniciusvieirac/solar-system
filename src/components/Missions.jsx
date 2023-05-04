@@ -2,13 +2,14 @@ import React from 'react';
 import Title from './Title';
 import missions from '../data/missions';
 import MissionCard from './MissionCard';
+import { MissionCardContainer, MissionSection } from '../styles/Missions';
 
 class Missions extends React.Component {
   render() {
     return (
-      <div data-testid="missions">
+      <MissionSection data-testid="missions-section">
         <Title headline="Missões" />
-        <ul className="ul-missions">
+        <MissionCardContainer className="missions-card-container">
           {missions.map((mission) => (
             <li key={ mission.name }>
               <MissionCard
@@ -19,8 +20,8 @@ class Missions extends React.Component {
               />
             </li>
           ))}
-        </ul>
-      </div>
+        </MissionCardContainer>
+      </MissionSection>
     );
   }
 }
