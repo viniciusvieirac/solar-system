@@ -11,4 +11,5 @@ export const MissionCardContainer = styled.div`
 display: grid;
 gap: 20px;
 grid-template-columns: repeat(2, 1fr);
+list-style: none;
 `;
