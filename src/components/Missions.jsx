@@ -8,7 +8,7 @@ class Missions extends React.Component {
     return (
       <div data-testid="missions">
         <Title headline="Missões" />
-        <ul>
+        <ul className="ul-missions">
           {missions.map((mission) => (
             <li key={ mission.name }>
               <MissionCard

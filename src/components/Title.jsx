@@ -1,13 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { TitleStyled } from '../styles/Title';
 
 class Title extends React.Component {
   render() {
     const { headline } = this.props;
     return (
-      <h2>
+      <TitleStyled>
         { headline }
-      </h2>
+      </TitleStyled>
     );
   }
 }
