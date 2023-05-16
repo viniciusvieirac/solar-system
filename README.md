@@ -1,15 +1,38 @@
-# :construction: README customizado em construção ! :construction:
+**In English** 🇺🇸
 
-tESTE
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Solar System
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+### About project:
+This project shows some space trips already made.
+### How to run:
+- Clone the repository.
+- Run the following commands:
+```
+npm start
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+```
+
+### Built with:
+- [React](https://pt-br.reactjs.org/)
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+### Developed by:
+- [Vinicius Vieira](https://www.linkedin.com/in/viniciusvieirac/)
+
+**In Portuguese** 🇧🇷 
+# Solar System
+
+### Sobre o projeto:
+Este projeto mostra algumas viagens espaciais já realizadas.
+### Como executar:
+- Clone o repositório.
+- Execute os seguintes comandos:
+```
+npm start
+
+```
+
+### Construído com:
+- [React](https://pt-br.reactjs.org/)
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+### Desenvolvido por:
+- [Vinicius Vieira](https://www.linkedin.com/in/viniciusvieirac/)
